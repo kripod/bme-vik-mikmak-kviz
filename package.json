@@ -16,12 +16,14 @@
     "gatsby-plugin-typescript": "^2.0.2",
     "gatsby-source-filesystem": "^2.0.10",
     "gatsby-transformer-yaml": "^2.1.6",
+    "lodash.shuffle": "^4.2.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
     "reactstrap": "^6.5.0"
   },
   "devDependencies": {
+    "@types/lodash.shuffle": "^4.2.4",
     "@types/react-helmet": "^5.0.7",
     "@types/reactstrap": "^6.4.3",
     "eslint": "^5.9.0",

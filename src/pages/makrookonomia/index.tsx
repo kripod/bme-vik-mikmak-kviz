@@ -1,4 +1,5 @@
 import { graphql, StaticQuery } from 'gatsby';
+import shuffle from 'lodash.shuffle';
 import * as React from 'react';
 import { Container } from 'reactstrap';
 import Assessment from '../../components/Assessment';
@@ -25,8 +26,12 @@ const MakrookonomiaPage = () => (
             }
           }
         `}
-        render={data =>
-          data.allAssessmentsYaml.edges.map(({ node }: any) => (
+        render={data => {
+          const shuffledAssessmentEdges = shuffle(
+            data.allAssessmentsYaml.edges,
+          );
+
+          return shuffledAssessmentEdges.map(({ node }: any) => (
             <Assessment
               key={node.id}
               question={node.question}
@@ -34,8 +39,8 @@ const MakrookonomiaPage = () => (
               incorrectAnswerChoices={[node.correctAnswer ? 'Hamis' : 'Igaz']}
               className="mt-3 mb-4"
             />
-          ))
-        }
+          ));
+        }}
       />
     </Container>
   </Layout>

@@ -5,6 +5,7 @@
     "target": "esnext",
     "moduleResolution": "node",
     "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
     "strict": true
   }
 }
