@@ -5,7 +5,7 @@ interface Props {
   question: string;
   correctAnswer: string;
   incorrectAnswerChoices: string[];
-  answerSortingFunction: (answerChoices: string[]) => string[];
+  answerShufflingFunction: (answerChoices: string[]) => string[];
   className?: string;
 }
 
@@ -15,11 +15,11 @@ interface State {
 
 export default class Assessment extends React.Component<Props, State> {
   static defaultProps = {
-    answerSortingFunction: (answerChoices: string[]) => answerChoices.sort(),
+    answerShufflingFunction: (answerChoices: string[]) => answerChoices.sort(),
   };
 
   /* eslint-disable react/destructuring-assignment */
-  shuffledAnswerChoices: string[] = this.props.answerSortingFunction([
+  shuffledAnswerChoices: string[] = this.props.answerShufflingFunction([
     this.props.correctAnswer,
     ...this.props.incorrectAnswerChoices,
   ]);
