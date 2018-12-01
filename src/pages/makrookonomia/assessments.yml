@@ -1,0 +1,162 @@
+- question: A pénz pénzügyi eszköz.
+  correctAnswer: true
+- question: A pénz olyan pénzügyi eszköz, amivel egy szereplő bármely rá szóló követelést meg tud szüntetni.
+  correctAnswer: true
+- question: A pénz lényegét a cserék végrehajtásának problémájából érthetjük meg, lévén a pénz a cserék végrehajtását könnyíti meg.
+  correctAnswer: false
+- question: A pénz lényegét a fizetés problémáján érthetjük meg, lévén a pénzt a társadalmi gazdagság elosztásának problémáján keresztül érthetjük meg.
+  correctAnswer: true
+- question: Az Ön számláján lévő pénz – ha átutalja - minden gazdasági szereplő számára pénz.
+  correctAnswer: false
+- question: A pénzrendszer egy speciális fizetési rendszer.
+  correctAnswer: true
+- question: Egy fizetési rendszert egy társadalomban a követelések keletkezésének és megszűnésének módja meghatároz.
+  correctAnswer: true
+- question: Fizetni egy tartozást megszűntetni.
+  correctAnswer: false
+- question: Fizetni egy követelést megszűntetni.
+  correctAnswer: true
+- question: Pénzügyi eszköz olyan eszköz, ami másnál forrás.
+  correctAnswer: true
+- question: Egy valós eszköz olyan eszköz, ami másnál forrás.
+  correctAnswer: false
+- question: Egy eszköz végső soron egy gazdasági szereplő tulajdona.
+  correctAnswer: true
+- question: Egy szereplő forrásai azt mutatják meg, hogy ennek a szereplőnek a tulajdonai milyen forrásból származnak, azaz hogy ki az, aki a társadalmi gazdagságba annak a tulajdonnak megfelelő gazdagságot betette.
+  correctAnswer: true
+- question: A részvény követelés.
+  correctAnswer: false
+- question: A követelés olyan pénzügyi eszköz, aminek van lejárata, azaz idővel ki kell fizetni.
+  correctAnswer: true
+- question: Fizetni követelést megszűntetni.
+  correctAnswer: true
+- question: A bank olyan gazdasági szereplő, amelyik tud pénzt teremteni.
+  correctAnswer: true
+- question: A pozitív kamat pénzben kifejezett növekedési kényszert okoz.
+  correctAnswer: false
+- question: A visszatartott banki profit nominális növekedési kényszert okoz.
+  correctAnswer: true
+- question: A modern hitelpénzrendszerben a magánbankok krematisztikus szereplők.
+  correctAnswer: true
+- question: A modern hitelpénzrendszer szükségképp ciklikusan működik, azaz a folyamatos növekedést válságok szakítják meg.
+  correctAnswer: true
+- question: Válság olyan helyzet, amikor bizonyos gazdasági szereplők szükségképp nem tudják végrehajtani tervüket.
+  correctAnswer: true
+- question: A túltermelési válság néven elhíresült nagy gazdasági válságnak semmi köze a termelés volumenéhez.
+  correctAnswer: true
+- question: Amikor egy banki átutalást indítunk egy olyan szereplő számára, akinek a számlája nem a mi kereskedelmi bankunknál van, akkor ez a másik bank pénzt teremt.
+  correctAnswer: true
+- question: Egy zárt gazdaságban az összes pénzügyi eszköz és pénzügyi forrás összege mindig nulla.
+  correctAnswer: true
+- question: A gazdaság normális működése az az állapot, amikor minden gazdasági szereplőnek megvan az elvi lehetősége arra, hogy megvalósítsa a tervét.
+  correctAnswer: true
+- question: A krematisztikus viselkedés azt jelenti, hogy a szereplő azért költ pénzt, hogy több pénzbevételre tegyen szert, mint az eredeti költés.
+  correctAnswer: true
+- question: Egy krematisztikus szereplő megtakarítása szigorúan pozitív amennyiben megvalósítja tervét.
+  correctAnswer: true
+- question: A monetáris bázis a központi bank által teremtett pénz.
+  correctAnswer: true
+- question: A pénzmultiplikátor a gazdaságban lévő teljes pénzmennyiség és a központi bank által teremtett pénz aránya.
+  correctAnswer: true
+- question: A pénzmennyiség (M2) Magyarországon nagyságrendileg 26ezer milliárd forint volt 2017-ben.
+  correctAnswer: true
+- question: A mai modern bankrendszerben, ha bármely kereskedelmi bank összes ügyfele elhatározza, hogy összes pénzüket leveszik bankszámlájukról, akkor ez a bank biztos fizetésképtelen lesz, kivéve, ha a központi bank hajlandó hitelezni neki.
+  correctAnswer: true
+- question: Amennyiben egy bank magasabb nyereséget mutat ki, mint amennyi valójában a nyeresége, akkor több pénzt is képes teremteni.
+  correctAnswer: true
+- question: Jelenleg Európában a kötelező tartalékráta nagyságrendileg 2% körül mozog.
+  correctAnswer: true
+- question: A kötelező tartalékráta a kereskedelmi bankok számára előírt arány a kereskedelmi bankok központi bankoknál tartott számláin lévő összeg és a nem banki szereplők kereskedelmi bankoknál tartott számláin lévő összeg hányadosa.
+  correctAnswer: true
+- question: A modern bankrendszerben pénzt kizárólag hitelművelettel lehet teremteni egy zárt gazdaságban.
+  correctAnswer: false
+- question: A hitelt pénzügyi eszközzel kell kifizetni.
+  correctAnswer: true
+- question: Ha a tőke fogalmát úgy definiáljuk, hogy a kalapács is tőke, akkor a kapitalizmus megkülönböztető jellemzője nem lehet a tőke léte.
+  correctAnswer: true
+- question: Pénzügyi eszközben nem ölthet testet a társadalmi gazdagság.
+  correctAnswer: true
+- question: Ha csökkentjük a munkabért egy olyan helyzetben, amikor van olyan ember, aki szeretne dolgozni a magasabb béren, de nem kap munkát (munkanélküli), akkor Keynes szerint nem feltétlen csökken a munkanélküliség.
+  correctAnswer: true
+- question: A kapitalizmus legfontosabb jellemzője, hogy vannak olyan szereplők, akik azért költenek pénzt, hogy több pénzük legyen.
+  correctAnswer: true
+- question: 'A pénz lehet valós eszköz (pl.: aranypénz) és pénzügyi eszköz (pl.: papírpénz) is.'
+  correctAnswer: false
+- question: Zárt gazdaságban a pénz a hitelek kamatostul való visszafizetésével szűnik meg.
+  correctAnswer: true
+- question: A pénzrendszer egy olyan speciális fizetési rendszer, ahol van pénz.
+  correctAnswer: true
+- question: A pénz nem jószág.
+  correctAnswer: true
+- question: A GDP egy ország területén a rezidensek által megtermelt összes megtermelt jószág és szolgáltatás pénzben kifejezett értéke egy időszak alatt.
+  correctAnswer: false
+- question: A flow típusú számlákon a gazdagság változását könyveljük.
+  correctAnswer: true
+- question: A jövedelem a gazdagság növekedését jelenti pénzben kifejezve.
+  correctAnswer: true
+- question: A kiadás a gazdagság csökkenését jelenti pénzben kifejezve.
+  correctAnswer: true
+- question: Minden költség kiadás.
+  correctAnswer: true
+- question: Minden pénzköltés kiadás.
+  correctAnswer: false
+- question: Minden költség költés.
+  correctAnswer: false
+- question: A beruházás csökkenti a szereplő gazdagságát.
+  correctAnswer: false
+- question: A t-edik időszaki amortizáció a t-edik időszakot megelőző beruházások t-edik időszakban költségként elszámolt része.
+  correctAnswer: true
+- question: A termelő felhasználást beszámoljuk a GDP-be.
+  correctAnswer: false
+- question: A nominális GDP-nek növekednie kell egy kapitalista gazdaságban.
+  correctAnswer: true
+- question: A GDP-t egy zárt gazdaságban fogyasztásra és beruházásra bonthatjuk.
+  correctAnswer: true
+- question: Egy gazdaságban az összes megtakarítás mindig megegyezik az összes beruházással.
+  correctAnswer: true
+- question: Az összes pénzügyi eszköz és pénzügyi forrás összege egy zárt gazdaságban mindig nulla.
+  correctAnswer: true
+- question: A megtakarítás a flow típusú számlák végső egyenlege.
+  correctAnswer: true
+- question: Az egyenleg egy számla két oszlopa közötti különbség.
+  correctAnswer: true
+- question: A nemzeti számvitel alaplogikája, hogy szereplők közötti kifizetéseket könyvel (ki költ kinél), ezért van az, hogy (az amortizáció elszámolását leszámítva) ha egy számla bal oldalára könyvelünk, akkor szükségképp valahol a jobb oldalara is kell könyvelni.
+  correctAnswer: true
+- question: A stock típusú nemzeti számlákon a gazdagság változását könyveljük.
+  correctAnswer: false
+- question: A megtakarítás és a beruházás is flow változó.
+  correctAnswer: true
+- question: A GDP Magyarországon 2017-ben nagyságrendileg 37 ezer milliárd forint volt.
+  correctAnswer: true
+- question: A GDP azért bruttó, mert nem vonjuk ki az adókat.
+  correctAnswer: false
+- question: A profit stock változó.
+  correctAnswer: false
+- question: A modern gazdaságok pénzben kifejezett növekedési kényszere megszűnne, ha a pénzügyi rendszert megreformálnánk.
+  correctAnswer: false
+- question: Az osztalék stock változó.
+  correctAnswer: false
+- question: Monetáris bázis a központi bank által teremtett pénz.
+  correctAnswer: true
+- question: A pénzkereslet biztosan növekszik, ha a jövedelem csökken, a kamatláb csökken és az árszínvonal nő.
+  correctAnswer: false
+- question: Ha a kormány 400 egységgel emeli az egyösszegű adókat, miközben az állami vásárlásokat 300 egységgel szintén növeli, akkor 0 adókulcs és 20 %-os megtakarítási hajlandóság mellett az egyensúlyi jövedelem értéke 100 egységgel csökken.
+  correctAnswer: true
+- question: A pénzmultiplikátor a nem banki szereplőknél lévő pénz és a központi bank által teremtett pénz.
+  correctAnswer: false
+- question: A bruttó kibocsátás (GO) nem tartalmazza a folyó termelő felhasználást.
+  correctAnswer: false
+- question: Egy zárt gazdaságban az összes pénzügyi eszköz és pénzügyi forrás összege mindig nulla.
+  correctAnswer: true
+- question: A megtakarítási hajlandóság növekedése csökkenti a fogyasztási függvény meredekségét.
+  correctAnswer: true
+- question: Ha a kormány 400 egységgel emeli az egyösszegű adókat, miközben az állami vásárlásokat 320 egységgel szintén növeli, akkor 25% adókulcs és 20 %-os megtakarítási hajlandóság mellett az egyensúlyi jövedelem értéke nem változik.
+  correctAnswer: true
+- question: A GNI mindig nagyobb, mint a GDP.
+  correctAnswer: false
+- question: Ha a jegybank növeli a pénzmennyiséget, miközben a kormány növeli az adókat, akkor a kamatláb biztosan csökken.
+  correctAnswer: false
+- question: Egy zárt gazdaságban az összes pénzügyi eszköz értéke megegyezik a valós eszközök értékével.
+  correctAnswer: false
+- question: A kormányzati kiadások multiplikátora és a transzferek multiplikátora megegyezik, ha nincs jövedelemadó.
+  correctAnswer: false
