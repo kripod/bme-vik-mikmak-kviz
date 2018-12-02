@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { Button } from 'reactstrap';
 
+import styles from './Assessment.module.css';
+
 interface Props {
   question: string;
   correctAnswer: string;
@@ -37,12 +39,13 @@ export default class Assessment extends React.Component<Props, State> {
 
   render() {
     const { shuffledAnswerChoices } = this;
-    const { question, correctAnswer, ...props } = this.props;
+    const { question, correctAnswer, className } = this.props;
     const { submittedAnswer } = this.state;
 
     return (
-      <div {...props}>
-        <p>{question}</p>
+      <div className={className}>
+        <p className="mb-0">{question}</p>
+
         <div>
           {shuffledAnswerChoices.map(answerChoice => {
             let color = 'secondary';
@@ -62,7 +65,7 @@ export default class Assessment extends React.Component<Props, State> {
                 onClick={this.handleAnswerChoiceButtonClick}
                 outline={color === 'secondary'}
                 color={color}
-                className="mr-3"
+                className={`mt-3 mr-3 ${styles.answerChoiceButton}`}
               >
                 {answerChoice}
               </Button>
