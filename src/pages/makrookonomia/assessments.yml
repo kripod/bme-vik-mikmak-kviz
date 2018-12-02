@@ -28,8 +28,6 @@
   correctAnswer: false
 - question: A követelés olyan pénzügyi eszköz, aminek van lejárata, azaz idővel ki kell fizetni.
   correctAnswer: true
-- question: Fizetni követelést megszűntetni.
-  correctAnswer: true
 - question: A bank olyan gazdasági szereplő, amelyik tud pénzt teremteni.
   correctAnswer: true
 - question: A pozitív kamat pénzben kifejezett növekedési kényszert okoz.
