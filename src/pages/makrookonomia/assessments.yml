@@ -136,8 +136,6 @@
   correctAnswer: false
 - question: Az osztalék stock változó.
   correctAnswer: false
-- question: Monetáris bázis a központi bank által teremtett pénz.
-  correctAnswer: true
 - question: A pénzkereslet biztosan növekszik, ha a jövedelem csökken, a kamatláb csökken és az árszínvonal nő.
   correctAnswer: false
 - question: Ha a kormány 400 egységgel emeli az egyösszegű adókat, miközben az állami vásárlásokat 300 egységgel szintén növeli, akkor 0 adókulcs és 20 %-os megtakarítási hajlandóság mellett az egyensúlyi jövedelem értéke 100 egységgel csökken.
