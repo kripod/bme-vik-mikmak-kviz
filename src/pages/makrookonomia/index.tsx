@@ -1,4 +1,4 @@
-import { graphql, StaticQuery } from 'gatsby';
+import { graphql } from 'gatsby';
 import shuffle from 'lodash.shuffle';
 import * as React from 'react';
 import { Container } from 'reactstrap';
@@ -7,31 +7,24 @@ import Layout from '../../components/Layout';
 
 import styles from './index.module.css';
 
-const MakrookonomiaPage = () => (
-  <Layout>
-    <Container className={styles.container}>
-      <h2>Makroökonómia kvíz</h2>
+interface Props {
+  data: any;
+}
 
-      <StaticQuery
-        query={graphql`
-          {
-            allAssessmentsYaml {
-              edges {
-                node {
-                  id
-                  question
-                  correctAnswer
-                }
-              }
-            }
-          }
-        `}
-        render={data => {
-          const shuffledAssessmentEdges = shuffle(
-            data.allAssessmentsYaml.edges,
-          );
+export default class MakrookonomiaPage extends React.Component<Props> {
+  /* eslint-disable react/destructuring-assignment */
+  shuffledAssessmentEdges = shuffle(this.props.data.allAssessmentsYaml.edges);
+  /* eslint-enable react/destructuring-assignment */
 
-          return shuffledAssessmentEdges.map(({ node }: any) => (
+  render() {
+    const { shuffledAssessmentEdges } = this;
+
+    return (
+      <Layout>
+        <Container className={styles.container}>
+          <h2>Makroökonómia kvíz</h2>
+
+          {shuffledAssessmentEdges.map(({ node }: any) => (
             <Assessment
               key={node.id}
               question={node.question}
@@ -39,11 +32,23 @@ const MakrookonomiaPage = () => (
               incorrectAnswerChoices={[node.correctAnswer ? 'Hamis' : 'Igaz']}
               className="mt-3 mb-4"
             />
-          ));
-        }}
-      />
-    </Container>
-  </Layout>
-);
+          ))}
+        </Container>
+      </Layout>
+    );
+  }
+}
 
-export default MakrookonomiaPage;
+export const query = graphql`
+  {
+    allAssessmentsYaml {
+      edges {
+        node {
+          id
+          question
+          correctAnswer
+        }
+      }
+    }
+  }
+`;
