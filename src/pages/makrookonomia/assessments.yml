@@ -112,8 +112,6 @@
   correctAnswer: true
 - question: Egy gazdaságban az összes megtakarítás mindig megegyezik az összes beruházással.
   correctAnswer: true
-- question: Az összes pénzügyi eszköz és pénzügyi forrás összege egy zárt gazdaságban mindig nulla.
-  correctAnswer: true
 - question: A megtakarítás a flow típusú számlák végső egyenlege.
   correctAnswer: true
 - question: Az egyenleg egy számla két oszlopa közötti különbség.
@@ -142,8 +140,6 @@
   correctAnswer: false
 - question: A bruttó kibocsátás (GO) nem tartalmazza a folyó termelő felhasználást.
   correctAnswer: false
-- question: Egy zárt gazdaságban az összes pénzügyi eszköz és pénzügyi forrás összege mindig nulla.
-  correctAnswer: true
 - question: A megtakarítási hajlandóság növekedése csökkenti a fogyasztási függvény meredekségét.
   correctAnswer: true
 - question: Ha a kormány 400 egységgel emeli az egyösszegű adókat, miközben az állami vásárlásokat 320 egységgel szintén növeli, akkor 25% adókulcs és 20 %-os megtakarítási hajlandóság mellett az egyensúlyi jövedelem értéke nem változik.
