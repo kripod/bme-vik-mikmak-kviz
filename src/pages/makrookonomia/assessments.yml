@@ -152,3 +152,25 @@
   correctAnswer: false
 - question: A kormányzati kiadások multiplikátora és a transzferek multiplikátora megegyezik, ha nincs jövedelemadó.
   correctAnswer: false
+- question: Ha egy kereskedelmi bank ügyfelei egymás számlájára utalnak át, az csökkenti az adott bank jegybanki tartalékait.
+  correctAnswer: false
+- question: Egy adott gazdasági szereplőnél a tőkeszámla egyenlege mindig megegyezik a pénzügyi számla egyenlegével.
+  correctAnswer: true
+- question: Egy zárt, kétszereplős gazdaságban a megtakarítási hajlandóság növekedése a kiadási multiplikátor növekedését eredményezi.
+  correctAnswer: false
+- question: Egy magyar vállalkozónak egy német cégnél befektetett tőkéjéből származó osztalék része a magyar GNI-nak.
+  correctAnswer: true
+- question: Ha a kormány 600 egységgel emeli az egyösszegű adókat, miközben az állami vásárlásokat 400 egységgel szintén növeli, akkor 25%os adókulcs és 20 %-os megtakarítási hajlandóság mellett az egyensúlyi jövedelem értéke 200 egységgel csökken.
+  correctAnswer: true
+- question: Ha a jegybank növeli a kötelező tartalékrátát, a pénzkínálat csökken, mert a pénzmultiplákátor csökken.
+  correctAnswer: true
+- question: A készpénzforgalom arányának csökkenése ceteris paribus növeli a kereskedelmi bankok hitelnyújtó képességét.
+  correctAnswer: true
+- question: Egy zárt, kétszereplős gazdaságban a fogyasztás és a nettó beruházások összege egyenlő a GDP-vel.
+  correctAnswer: false
+- question: Ha a jegybank értékpapírokat ad el a kereskedelmi bankoknak, akkor a monetáris bázis csökken.
+  correctAnswer: true
+- question: Az egyéni gazdagság valós és pénzügyi eszközökben is testet ölthet.
+  correctAnswer: true
+- question: A tőkeszámla egyenlege az adott gazdasági szereplő finanszírozási kapacitását mutatja.
+  correctAnswer: true
